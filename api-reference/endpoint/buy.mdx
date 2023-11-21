@@ -1,4 +1,69 @@
+### Title: "Buy NFTs with Stripe"
+
+### OpenAPI: "POST /1/buy/stripe"
+
 ---
-title: "Buy NFTS"
-openapi: "GET /plants"
+
+This endpoint in the Cardster API enables users to purchase NFTs using Stripe. Payment can be made using credit cards or other non-crypto methods. The NFT is transferred to the recipient's wallet upon successful payment.
+
+#### API URL
+
+\```
+https://cardster/api/1/buy/stripe
+\```
+
+#### HTTP Method
+
+\```
+POST
+\```
+
+#### Required Parameters
+
+- `nft_contract`: The NFT's contract address and ID, formatted as `address:id`.
+- `owner_address`: Ethereum address of the NFT's current owner.
+- `price`: Price of the NFT.
+- `recipient_address`: Ethereum address for the NFT to be sent to after purchase.
+- `blockchain`: Blockchain on which the NFT is hosted.
+
+#### Optional Parameters
+
+- `nft_name`: Name of the NFT (optional).
+- `currency`: Currency of the transaction (e.g., USD, EUR) (optional, default as USD).
+
+#### Example Request
+
+\```json
+POST https://cardster/api/1/buy/stripe
+Content-Type: application/json
+
+{
+"nft_contract": "0xa65d82E0BA8d33d8B0dBF6E31d98B2aFa13a6162:21",
+"owner_address": "0xOwnerEthereumAddress",
+"price": 200,
+"currency": "USD",
+"recipient_address": "0xRecipientEthereumAddress",
+"nft_name": "NFT Example Name",
+"blockchain": "Ethereum"
+}
+\```
+
+#### Security
+
+Authentication via Bearer token is required for this endpoint.
+
+\```json
+"security": [
+{
+"bearerAuth": []
+}
+]
+\```
+
+#### Notes
+
+- Verify correct formatting for Ethereum addresses and contract details.
+- The price and currency should align with the NFT's listed price.
+- Stripe handles the transaction; Cardster does not store payment details.
+
 ---
