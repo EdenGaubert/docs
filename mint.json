@@ -18,13 +18,9 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:eden.gaubert@gmail.com"
+      "url": "t.me/edenlebg"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://edng.dev"
-  },
   "tabs": [
     {
       "name": "API Reference",
