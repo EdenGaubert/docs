@@ -8,17 +8,17 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
-    "light": "#000000",
+    "light": "#FFFFFF",
     "dark": "#0C1116",
     "background": {
-      "light": "#000000",
+      "light": "#FFFFFF",
       "dark": "#0C1116"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "eden.gaubert@gmail.com"
+      "url": "mailto:eden.gaubert@gmail.com"
     }
   ],
   "topbarCtaButton": {
