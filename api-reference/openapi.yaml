@@ -6,11 +6,11 @@ info:
     name: "MIT"
   version: "1.0.0"
 servers:
-  - url: "https://cardster/api"
+  - url: "https://cardster/api/1"
 security:
   - bearerAuth: []
 paths:
-  /1/buy/stripe:
+  /buy/stripe:
     post:
       description: "Allows users to buy NFTs using Stripe for credit card payments."
       parameters:
@@ -53,7 +53,7 @@ paths:
             type: "string"
         - name: "nft_name"
           in: "query"
-          description: "Name of the NFT that will be purchase"
+          description: "Name of the NFT that will be purchased"
           required: false
           schema:
             type: "string"
@@ -77,6 +77,7 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Error"
+
 components:
   schemas:
     Error:
