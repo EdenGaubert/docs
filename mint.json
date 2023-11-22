@@ -41,11 +41,11 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Home",
       "pages": ["introduction"]
     },
     {
-      "group": "Get Started",
+      "group": "Introduction",
       "pages": ["api-reference/get-started"]
     },
     {
