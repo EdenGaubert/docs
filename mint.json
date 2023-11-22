@@ -1,5 +1,6 @@
 {
-  "name": "Cardster API",
+  "name": "Cardster",
+
   "favicon": "/favicon.svg",
   "colors": {
     "background": {
@@ -44,11 +45,11 @@
       "pages": ["introduction"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "group": "Get Started",
+      "pages": ["api-reference/get-started"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Endpoint",
       "pages": ["api-reference/endpoint/buy"]
     }
   ],
