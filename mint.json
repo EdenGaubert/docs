@@ -1,17 +1,10 @@
 {
-  "name": "Mobula API",
+  "name": "Test test ettst",
   "logo": {
-    "dark": "/logo/dark_logo.svg",
-    "light": "/logo/light_logo.svg"
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
-  "analytics": {
-    "mixpanel": {
-      "projectToken": "792afbf66aa630430016bdbd59c52ba7"
-    }
-  },
-  "feedback.thumbsRating": true,
-  "openapi": ["api-reference/openapi.yaml"],
-  "favicon": "/favicon.png",
+  "favicon": "/favicon.svg",
   "colors": {
     "background": {
       "light": "#f5f5f5",
@@ -25,168 +18,33 @@
       "to": "#5C7DF9"
     }
   },
-  "primaryTab": {
-    "name": "Home"
-  },
-  "tabs": [
-    {
-      "name": "Mobula API",
-      "url": "api-reference"
-    },
-    {
-      "name": "Mobula SDK",
-      "url": "sdk"
-    }
-  ],
-  "topbarCtaButton": {
-    "type": "link",
-    "url": "https://admin.mobula.fi/",
-    "name": "Dashboard"
-  },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "https://t.me/MobulaPartnerBot?start=Mobula_API_Support"
+      "url": "https://t.me/edenlebg"
     }
   ],
-  "anchors": [
+  "tabs": [
     {
-      "name": "Dashboard",
-      "icon": "gauge",
-      "url": "https://api-dashboard-kappa.vercel.app/"
-    },
-    {
-      "name": "Support",
-      "icon": "telegram",
-      "url": "https://t.me/MobulaPartnerBot?start=Mobula_API_Support"
-    },
-    {
-      "name": "Email",
-      "icon": "envelope",
-      "url": "mailto:contact@mobulalabs.org"
-    },
-    {
-      "name": "Github",
-      "icon": "github",
-      "url": "https://github.com/anouci/mobula-api-sdk"
+      "name": "API Reference",
+      "url": "api-reference"
     }
   ],
   "navigation": [
     {
-      "group": "Home",
-      "pages": ["start_here"]
+      "group": "Get Started",
+      "pages": ["introduction"]
     },
     {
-      "group": "Custom needs",
-      "pages": [
-        "introduction_custom_endpoint",
-        "introduction_custom_blockchain"
-      ]
+      "group": "API Documentation",
+      "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Introduction",
-      "pages": [
-        "api-reference/introduction",
-        "api-reference/authentification",
-        "api-reference/usage",
-        "api-reference/upgrade"
-      ]
-    },
-    {
-      "group": "Custom needs",
-      "pages": [
-        "api-reference/custom/introduction_custom_endpoint",
-        "api-reference/custom/introduction_custom_blockchain"
-      ]
-    },
-    {
-      "group": "[BETA] Wallet Explorer API",
-      "pages": [
-        "api-reference/introduction_wallet_explorer",
-        "api-reference/endpoint/get-portfolio",
-        "api-reference/endpoint/get-the-historical-balance-of-any-evm-compatible-wallets-at-any-time",
-        "api-reference/endpoint/get-the-portfolio-of-holdings-from-any-evm-compatible-wallets-at-any-time",
-        "api-reference/endpoint/get-the-wallet-transactions"
-      ]
-    },
-    {
-      "group": "Market API",
-      "pages": [
-        "api-reference/introduction_market",
-        "api-reference/endpoint/get-multiple-assets-market-data",
-        "api-reference/endpoint/get-the-market-metrics-for-any-asset",
-        "api-reference/endpoint/retrieve-trade-history-for-a-given-asset",
-        "api-reference/endpoint/get-the-market-metrics-of-an-asset-over-a-given-timeframe"
-      ]
-    },
-    {
-      "group": "Metadata API",
-      "pages": [
-        "api-reference/introduction_metadata",
-        "api-reference/endpoint/get-all-crypto-data-with-extra-fields-as-needed",
-        "api-reference/endpoint/get-market-metrics-at-a-specific-time",
-        "api-reference/endpoint/search-crypto-data-by-name-or-symbol"
-      ]
-    },
-    {
-      "group": "Early Access",
-      "pages": [
-        "api-reference/beta/introduction_cex_data",
-        "api-reference/beta/introduction_highlevel",
-        "api-reference/beta/introduction_stablecoins",
-        "api-reference/beta/introduction_nodes",
-        "api-reference/beta/introduction_explorer_sql_api",
-        "api-reference/beta/introduction_trades_sql_api"
-      ]
-    },
-    {
-      "group": "Introduction",
-      "pages": [
-        "sdk/introduction",
-        "sdk/authentification",
-        "sdk/usage",
-        "sdk/upgrade"
-      ]
-    },
-    {
-      "group": "Resources",
-      "pages": ["sdk/methods_index", "sdk/tutorials"]
-    },
-    {
-      "group": "Custom needs",
-      "pages": [
-        "sdk/custom/introduction_custom_endpoint",
-        "sdk/custom/introduction_custom_blockchain"
-      ]
-    },
-    {
-      "group": "SDK Examples",
-      "pages": [
-        "sdk/examples/history_balance_wallet",
-        "sdk/examples/metadata_specific_asset",
-        "sdk/examples/nft_of_wallet",
-        "sdk/examples/marketdata_asset",
-        "sdk/examples/wallet_transactions"
-      ]
-    },
-    {
-      "group": "Troubleshooting",
-      "pages": ["sdk/issues/troubleshooting"]
-    },
-    {
-      "group": "Early Access",
-      "pages": [
-        "sdk/beta/introduction_cex_data",
-        "sdk/beta/introduction_highlevel",
-        "sdk/beta/introduction_stablecoins",
-        "sdk/beta/introduction_nodes",
-        "sdk/beta/introduction_explorer_sql_api",
-        "sdk/beta/introduction_trades_sql_api"
-      ]
+      "group": "Endpoint Examples",
+      "pages": ["api-reference/endpoint/buy"]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/MobulaFi",
-    "telegram": "https://t.me/MobulaFi"
+    "github": "https://github.com/EdenGaubert"
   }
 }
