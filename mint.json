@@ -1,5 +1,5 @@
 {
-  "name": "Test test ettst",
+  "name": "Cardster API",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -21,7 +21,19 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "https://t.me/edenlebg"
+      "url": "https://t.me/+HoueUVn70BlmYmQ0"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Support",
+      "icon": "telegram",
+      "url": "https://t.me/+HoueUVn70BlmYmQ0"
+    },
+    {
+      "name": "Email",
+      "icon": "envelope",
+      "url": "mailto:cardsterapi@gmail.com"
     }
   ],
   "tabs": [
