@@ -4,6 +4,9 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
+  "primaryTab": {
+    "name": "Cardster API"
+  },
   "favicon": "/favicon.svg",
   "colors": {
     "background": {
